@@ -50,7 +50,7 @@ class ImportCommand:
 
     async def prompt_a_file_name(self  # type: HummingbotApplication
                                  ):
-        example = f"{CONF_PREFIX}{short_strategy_name('pure_market_making')}_{1}.yml"
+        example = f"{CONF_PREFIX}{short_strategy_name('day_trade_making')}_{1}.yml"
         file_name = await self.app.prompt(prompt=f'Enter path to your strategy file (e.g. "{example}") >>> ')
         if self.app.to_stop_config:
             return
