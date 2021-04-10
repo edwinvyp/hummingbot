@@ -27,6 +27,13 @@ from hummingbot.strategy.pure_market_making import (
 from hummingbot.strategy.perpetual_market_making import (
     PerpetualMarketMakingStrategy
 )
+from hummingbot.client.config.security import Security
+from hummingbot.client.config.config_var import ConfigVar
+from hummingbot.core.utils.async_utils import safe_ensure_future
+from hummingbot.model.inventory_cost import InventoryCost
+from hummingbot.strategy.day_trade_making import (
+    DayTradeMakingStrategy
+)
 from hummingbot.user.user_balances import UserBalances
 from typing import TYPE_CHECKING
 if TYPE_CHECKING:
