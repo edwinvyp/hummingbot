@@ -438,6 +438,8 @@ def short_strategy_name(strategy: str) -> str:
         return "xemm"
     elif strategy == "arbitrage":
         return "arb"
+    elif strategy == "day_trade_making":
+        return "day_tm"
     else:
         return strategy
 
