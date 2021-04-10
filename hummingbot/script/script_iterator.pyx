@@ -8,6 +8,7 @@ from multiprocessing import Process, Queue
 from hummingbot.core.clock cimport Clock
 from hummingbot.core.clock import Clock
 from hummingbot.strategy.pure_market_making import PureMarketMakingStrategy
+from hummingbot.strategy.day_trade_making import DayTradeMakingStrategy
 from hummingbot.core.event.events import (
     BuyOrderCompletedEvent,
     SellOrderCompletedEvent,
