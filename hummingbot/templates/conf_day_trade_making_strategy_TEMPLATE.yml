@@ -1,0 +1,39 @@
+
+template_version: 1
+strategy: null
+exchange: null
+market: null
+bid_spread: 4
+ask_spread: null
+minimum_spread: 4
+order_refresh_time: 500
+max_order_age: 500
+order_refresh_tolerance_pct: null
+order_amount: null
+price_ceiling: null
+price_floor: null
+ping_pong_enabled: true
+inventory_skew_enabled: null
+inventory_target_base_pct: null
+inventory_range_multiplier: null
+inventory_price: null
+order_levels: null
+order_level_amount: null
+order_level_spread: null
+filled_order_delay: null
+hanging_orders_enabled: null
+hanging_orders_cancel_pct: null
+order_optimization_enabled: null
+ask_order_optimization_depth: null
+bid_order_optimization_depth: null
+add_transaction_costs: null
+price_source: null
+price_type: null
+price_source_exchange: null
+price_source_market: null
+price_source_custom_api: null
+take_if_crossed: null
+order_override: null
+
+# day trade thomas
+
